@@ -17,7 +17,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: grade-submission-api
-        image: ghcr.io/kachi079/app-kube-argocd:0c008f6a4f58ecabdcd0ac1bd3c8263c6b6fe73e
+        image: ghcr.io/kachi079/app-kube-argocd:e017b496a59a1ec10a623d3fa2f326f3fe17ff00
         ports:
         - containerPort: 3000
         resources:
